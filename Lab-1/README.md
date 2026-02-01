@@ -6,7 +6,7 @@ This lab contains Database Management System (DBMS) practical work performed as 
 ## 📂 File Included
 
 - **1st Lab [Assignment (DDL + DML)].sql**  
-  This file contains all SQL queries along with expected outputs written as comments, following Oracle SQL*Plus output format.
+  This file contains all SQL queries along with expected outputs written as comments, following Oracle SQL output format.
 
 ## 🧪 Lab Tasks Covered
 
@@ -32,7 +32,7 @@ This lab contains Database Management System (DBMS) practical work performed as 
 - Written and tested on Oracle Database 21c  
 - Proper SQL formatting with comments  
 - Question-wise outputs included  
-- Output shown in SQL*Plus style with column names  
+- Output shown in SQL style with column names  
 - Suitable for lab submission, viva, and GitHub use  
 
 ## 🎯 Learning Outcome
