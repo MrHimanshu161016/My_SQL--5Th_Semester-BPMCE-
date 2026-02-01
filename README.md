@@ -1,16 +1,23 @@
-This repository contains Database Management System (DBMS) laboratory work implemented using Oracle Database 21c and MySQL. The objective of this lab work is to build strong practical understanding of relational databases by applying theoretical DBMS concepts through structured SQL experiments.
+This repository presents Database Management System (DBMS) laboratory work implemented using Oracle Database 21c and MySQL. It focuses on building strong practical skills in relational database management by applying core DBMS concepts through structured and well-documented SQL experiments.
 
-The repository helps students learn how databases are designed, managed, and queried in both enterprise and open-source environments. Oracle Database 21c is used to explore advanced, industry-level features, while MySQL provides hands-on experience with a widely adopted open-source database system.
+The work demonstrates how databases are designed, managed, and queried across both enterprise-level and open-source environments. Oracle Database 21c is used to explore advanced and industry-relevant database features, while MySQL provides hands-on experience with a widely adopted and lightweight relational database system.
 
-Key Features--
+✨ What’s Included
 
-Database and table creation using SQL
-DDL, DML, DCL, and TCL commands
-Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL
-SQL queries using SELECT, JOIN, and SUBQUERIES
-Aggregate functions with GROUP BY and HAVING
-Views and indexes
+🏗️ Database and table creation using SQL
 
-Basic PL/SQL in Oracle 21c
+🧩 DDL, DML, DCL, and TCL commands
 
-All SQL scripts are organized in a clear folder structure for easy execution and understanding. This repository serves as a practical reference for DBMS students and helps bridge the gap between academic learning and real-world database applications.
+🔐 Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL)
+
+🔍 SQL queries using SELECT, JOINS, and SUBQUERIES
+
+📊 Aggregate functions with GROUP BY and HAVING
+
+👁️ Views and indexes
+
+⚙️ Introductory PL/SQL (Oracle 21c)
+
+🎯 Purpose
+
+All SQL scripts are organized in a clean folder structure to ensure easy execution and readability. This repository serves as a practical reference for DBMS students, improves query-writing efficiency, and helps bridge the gap between academic learning and real-world database applications 🚀.
