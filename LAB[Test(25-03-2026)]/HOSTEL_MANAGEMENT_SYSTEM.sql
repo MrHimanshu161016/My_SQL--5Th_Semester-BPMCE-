@@ -266,19 +266,18 @@ HAVING COUNT(a.StudentID) > 1;
    (Use SELF JOIN on Allocation table)
 ========================================================= */
 
-SELECT 
-    s1.Name AS Student1, 
-    s2.Name AS Student2, 
+SELECT
+    s1.Name AS Student1,
+    s2.Name AS Student2,
     a1.RoomID
 FROM Allocation a1
-JOIN Allocation a2 
-    ON a1.RoomID = a2.RoomID 
-    AND a1.StudentID <> a2.StudentID
-JOIN Student s1 
+JOIN Allocation a2
+    ON a1.RoomID = a2.RoomID
+    AND a1.StudentID < a2.StudentID
+JOIN Student s1
     ON a1.StudentID = s1.StudentID
-JOIN Student s2 
+JOIN Student s2
     ON a2.StudentID = s2.StudentID;
-
 
 /*
 Expected Output:
@@ -287,13 +286,8 @@ Expected Output:
 | Student1      | Student2      | RoomID |
 +---------------+---------------+--------+
 | Amit Kumar    | Ravi Singh    | R1     |
-| Ravi Singh    | Amit Kumar    | R1     |
 +---------------+---------------+--------+
 
 Explanation:
 - Room R1 has 2 students → Amit & Ravi
-- So pairs are formed:
-    (Amit, Ravi)
-    (Ravi, Amit)
-*/
-
+/*
